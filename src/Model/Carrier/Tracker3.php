@@ -36,7 +36,7 @@ namespace ShipperHQ\Tracker\Model\Carrier;
 class Tracker3 extends \ShipperHQ\Tracker\Model\Carrier\AbstractCarrier implements
     \Magento\Shipping\Model\Carrier\CarrierInterface
 {
-    protected $_code = 'shqtracker3';
+    protected $_code = 'lowes_toll_priority';
     
     /**
      * Get allowed shipping methods
@@ -45,6 +45,6 @@ class Tracker3 extends \ShipperHQ\Tracker\Model\Carrier\AbstractCarrier implemen
      */
     public function getAllowedMethods()
     {
-        return ['shqtracker3' => $this->getConfigData('name')];
+        return ['lowes_toll_priority' => $this->getConfigData('name')];
     }
 }

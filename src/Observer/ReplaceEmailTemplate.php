@@ -65,7 +65,7 @@ class ReplaceEmailTemplate implements ObserverInterface
      */
     public function execute(EventObserver $observer)
     {
-        if ($this->trackerDataHelper->getConfigValue('carriers/shqtracker1/active')) {
+        if ($this->trackerDataHelper->getConfigValue('carriers/lowes_aus_post/active')) {
             $blockentity = $observer->getBlock();
             if ($blockentity->getTemplate() == 'Magento_Sales::email/shipment/track.phtml') {
                 $blockentity->setTemplate('ShipperHQ_Tracker::email/shipment/track.phtml');

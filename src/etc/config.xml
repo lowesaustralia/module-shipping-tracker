@@ -36,41 +36,45 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
     <default>
         <carriers>
-            <shqtracker1>
-                <active>0</active>
-                <name>Tracker1</name>
+            <lowes_aus_post>
+                <active>1</active>
+                <name>Australia Post</name>
                 <sallowspecific>0</sallowspecific>
                 <model>ShipperHQ\Tracker\Model\Carrier\Tracker1</model>
-                <title>ShipperHQ Tracker 1</title>
-            </shqtracker1>
-            <shqtracker2>
-                <active>0</active>
-                <name>Tracker2</name>
+                <title>Australia Post</title>
+                <url><![CDATA[https://auspost.com.au/parcels-mail/track.html#/track?id=#TRACKNUM#]]></url>
+            </lowes_aus_post>
+            <lowes_aus_post_express>
+                <active>1</active>
+                <name>Australia Post Express</name>
                 <sallowspecific>0</sallowspecific>
                 <model>ShipperHQ\Tracker\Model\Carrier\Tracker2</model>
-                <title>ShipperHQ Tracker 2</title>
-            </shqtracker2>
-            <shqtracker3>
-                <active>0</active>
-                <name>Tracker3</name>
+                <title>Australia Post Express</title>
+                <url><![CDATA[https://auspost.com.au/parcels-mail/track.html#/track?id=#TRACKNUM#]]></url>
+            </lowes_aus_post_express>
+            <lowes_toll_priority>
+                <active>1</active>
+                <name>Toll Priority</name>
                 <sallowspecific>0</sallowspecific>
                 <model>ShipperHQ\Tracker\Model\Carrier\Tracker3</model>
-                <title>ShipperHQ Tracker 3</title>
-            </shqtracker3>
-            <shqtracker4>
-                <active>0</active>
-                <name>Tracker4</name>
+                <title>Toll Priority</title>
+                <url><![CDATA[https://online.toll.com.au/trackandtrace/traceConsignments.do?consignments=#TRACKNUM#]]></url>
+            </lowes_toll_priority>
+            <go_logistics>
+                <active>1</active>
+                <name>Go Logistics</name>
                 <sallowspecific>0</sallowspecific>
                 <model>ShipperHQ\Tracker\Model\Carrier\Tracker4</model>
-                <title>ShipperHQ Tracker 4</title>
-            </shqtracker4>
-            <shqtracker5>
-                <active>0</active>
-                <name>Tracker5</name>
+                <title>Go Logistics</title>
+                <url><![CDATA[https://www.gologistics.com.au/track-your-parcel?item=#TRACKNUM#]]></url>
+            </go_logistics>
+            <mail_call>
+                <active>1</active>
+                <name>Mail Call</name>
                 <sallowspecific>0</sallowspecific>
                 <model>ShipperHQ\Tracker\Model\Carrier\Tracker5</model>
-                <title>ShipperHQ Tracker 5</title>
-            </shqtracker5>
+                <title>Mail Call</title>
+            </mail_call>
         </carriers>
         <extension_version>0.0.0</extension_version>
     </default>

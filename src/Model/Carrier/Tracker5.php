@@ -36,7 +36,7 @@ namespace ShipperHQ\Tracker\Model\Carrier;
 class Tracker5 extends \ShipperHQ\Tracker\Model\Carrier\AbstractCarrier implements
     \Magento\Shipping\Model\Carrier\CarrierInterface
 {
-    protected $_code = 'shqtracker5';
+    protected $_code = 'mail_call';
     
     /**
      * Get allowed shipping methods
@@ -45,6 +45,6 @@ class Tracker5 extends \ShipperHQ\Tracker\Model\Carrier\AbstractCarrier implemen
      */
     public function getAllowedMethods()
     {
-        return ['shqtracker5' => $this->getConfigData('name')];
+        return ['mail_call' => $this->getConfigData('name')];
     }
 }

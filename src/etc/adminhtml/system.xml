@@ -36,7 +36,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
 <system>
         <section id="carriers">
-            <group id="shqtracker1" translate="label" type="text" sortOrder="500" showInDefault="1" showInWebsite="1" showInStore="1">
+            <group id="lowes_aus_post" translate="label" type="text" sortOrder="500" showInDefault="1" showInWebsite="1" showInStore="1">
                 <comment>
                     <![CDATA[
 				<div style="padding:10px;background-color:#fff;border:1px solid #ddd;margin-bottom:7px;">
@@ -46,7 +46,7 @@
 		  				</div>
 		  			  ]]>
                 </comment>
-                <label>ShipperHQ Tracker 1</label>
+                <label>Lowes - Australia Post</label>
                 <field id="active" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Tracking Enabled</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
@@ -64,7 +64,7 @@
                     <comment>Enter Manual Tracking URL. Must include #TRACKNUM#</comment>
                 </field>
             </group>
-            <group id="shqtracker2" translate="label" type="text" sortOrder="500" showInDefault="1" showInWebsite="1" showInStore="1">
+            <group id="lowes_aus_post_express" translate="label" type="text" sortOrder="500" showInDefault="1" showInWebsite="1" showInStore="1">
                 <comment>
                     <![CDATA[
 				<div style="padding:10px;background-color:#fff;border:1px solid #ddd;margin-bottom:7px;">
@@ -74,7 +74,7 @@
 		  				</div>
 		  			  ]]>
                 </comment>
-                <label>ShipperHQ Tracker 2</label>
+                <label>Lowes - Australia Post Express</label>
                 <field id="active" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Tracking Enabled</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
@@ -92,7 +92,7 @@
                     <comment>Enter Manual Tracking URL. Must include #TRACKNUM#</comment>
                 </field>
             </group>
-            <group id="shqtracker3" translate="label" type="text" sortOrder="500" showInDefault="1" showInWebsite="1" showInStore="1">
+            <group id="lowes_toll_priority" translate="label" type="text" sortOrder="500" showInDefault="1" showInWebsite="1" showInStore="1">
                 <comment>
                     <![CDATA[
 				<div style="padding:10px;background-color:#fff;border:1px solid #ddd;margin-bottom:7px;">
@@ -102,7 +102,7 @@
 		  				</div>
 		  			  ]]>
                 </comment>
-                <label>ShipperHQ Tracker 3</label>
+                <label>Lowes - Toll Priority</label>
                 <field id="active" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Tracking Enabled</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
@@ -120,7 +120,7 @@
                     <comment>Enter Manual Tracking URL. Must include #TRACKNUM#</comment>
                 </field>
             </group>
-            <group id="shqtracker4" translate="label" type="text" sortOrder="500" showInDefault="1" showInWebsite="1" showInStore="1">
+            <group id="go_logistics" translate="label" type="text" sortOrder="500" showInDefault="1" showInWebsite="1" showInStore="1">
                 <comment>
                     <![CDATA[
 				<div style="padding:10px;background-color:#fff;border:1px solid #ddd;margin-bottom:7px;">
@@ -130,7 +130,7 @@
 		  				</div>
 		  			  ]]>
                 </comment>
-                <label>ShipperHQ Tracker 4</label>
+                <label>Lowes - Go Logistics</label>
                 <field id="active" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Tracking Enabled</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
@@ -148,7 +148,7 @@
                     <comment>Enter Manual Tracking URL. Must include #TRACKNUM#</comment>
                 </field>
             </group>
-            <group id="shqtracker5" translate="label" type="text" sortOrder="500" showInDefault="1" showInWebsite="1" showInStore="1">
+            <group id="mail_call" translate="label" type="text" sortOrder="500" showInDefault="1" showInWebsite="1" showInStore="1">
                 <comment>
                     <![CDATA[
 				<div style="padding:10px;background-color:#fff;border:1px solid #ddd;margin-bottom:7px;">
@@ -158,7 +158,7 @@
 		  				</div>
 		  			  ]]>
                 </comment>
-                <label>ShipperHQ Tracker 5</label>
+                <label>Lowes -  Mail Call</label>
                 <field id="active" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Tracking Enabled</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>

@@ -36,7 +36,7 @@ namespace ShipperHQ\Tracker\Model\Carrier;
 class Tracker2 extends \ShipperHQ\Tracker\Model\Carrier\AbstractCarrier implements
     \Magento\Shipping\Model\Carrier\CarrierInterface
 {
-    protected $_code = 'shqtracker2';
+    protected $_code = 'lowes_aus_post_express';
     
     /**
      * Get allowed shipping methods
@@ -45,6 +45,6 @@ class Tracker2 extends \ShipperHQ\Tracker\Model\Carrier\AbstractCarrier implemen
      */
     public function getAllowedMethods()
     {
-        return ['shqtracker2' => $this->getConfigData('name')];
+        return ['lowes_aus_post_express' => $this->getConfigData('name')];
     }
 }
