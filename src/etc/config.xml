@@ -68,13 +68,13 @@
                 <title>Go Logistics</title>
                 <url><![CDATA[https://www.gologistics.com.au/track-your-parcel?item=#TRACKNUM#]]></url>
             </go_logistics>
-            <mail_call>
+            <iws_dfe>
                 <active>1</active>
-                <name>Mail Call</name>
+                <name>Direct Freight Express</name>
                 <sallowspecific>0</sallowspecific>
                 <model>ShipperHQ\Tracker\Model\Carrier\Tracker5</model>
-                <title>Mail Call</title>
-            </mail_call>
+                <title>Direct Freight Express</title>
+            </iws_dfe>
         </carriers>
         <extension_version>0.0.0</extension_version>
     </default>

@@ -148,7 +148,7 @@
                     <comment>Enter Manual Tracking URL. Must include #TRACKNUM#</comment>
                 </field>
             </group>
-            <group id="mail_call" translate="label" type="text" sortOrder="500" showInDefault="1" showInWebsite="1" showInStore="1">
+            <group id="iws_dfe" translate="label" type="text" sortOrder="500" showInDefault="1" showInWebsite="1" showInStore="1">
                 <comment>
                     <![CDATA[
 				<div style="padding:10px;background-color:#fff;border:1px solid #ddd;margin-bottom:7px;">
@@ -158,7 +158,7 @@
 		  				</div>
 		  			  ]]>
                 </comment>
-                <label>Lowes -  Mail Call</label>
+                <label>IWS Direct Freight Express</label>
                 <field id="active" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Tracking Enabled</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
