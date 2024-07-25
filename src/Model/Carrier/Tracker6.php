@@ -33,10 +33,10 @@
  */
 namespace ShipperHQ\Tracker\Model\Carrier;
 
-class Tracker2 extends \ShipperHQ\Tracker\Model\Carrier\AbstractCarrier implements
+class Tracker6 extends \ShipperHQ\Tracker\Model\Carrier\AbstractCarrier implements
     \Magento\Shipping\Model\Carrier\CarrierInterface
 {
-    protected $_code = 'lowes_aus_post_express';
+    protected $_code = 'tg_express';
     
     /**
      * Get allowed shipping methods

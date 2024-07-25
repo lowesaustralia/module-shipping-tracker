@@ -45,6 +45,6 @@ class Tracker1 extends \ShipperHQ\Tracker\Model\Carrier\AbstractCarrier implemen
      */
     public function getAllowedMethods()
     {
-        return ['lowes_aus_post' => $this->getConfigData('name')];
+        return [$this->_code => $this->getConfigData('name')];
     }
 }

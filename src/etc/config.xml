@@ -75,6 +75,14 @@
                 <model>ShipperHQ\Tracker\Model\Carrier\Tracker5</model>
                 <title>Direct Freight Express</title>
             </iws_dfe>
+            <tg_express>
+                <active>1</active>
+                <name>TGExpress</name>
+                <sallowspecific>0</sallowspecific>
+                <model>ShipperHQ\Tracker\Model\Carrier\Tracker6</model>
+                <title>TGExpress</title>
+                <url><![CDATA[https://teamglobalexp.com/myparcel?shipmentID=#TRACKNUM#]]></url>
+            </tg_express>
         </carriers>
         <extension_version>v1.0.6</extension_version>
     </default>

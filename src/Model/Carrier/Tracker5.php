@@ -45,6 +45,6 @@ class Tracker5 extends \ShipperHQ\Tracker\Model\Carrier\AbstractCarrier implemen
      */
     public function getAllowedMethods()
     {
-        return ['iws_dfe' => $this->getConfigData('name')];
+        return [$this->_code => $this->getConfigData('name')];
     }
 }

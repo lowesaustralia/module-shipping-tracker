@@ -45,6 +45,6 @@ class Tracker4 extends \ShipperHQ\Tracker\Model\Carrier\AbstractCarrier implemen
      */
     public function getAllowedMethods()
     {
-        return ['go_logistics' => $this->getConfigData('name')];
+        return [$this->_code => $this->getConfigData('name')];
     }
 }
