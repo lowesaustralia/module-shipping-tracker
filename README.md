@@ -1,29 +1,36 @@
 # ShipperHQ Shipping Tracker
 
-Description
------------
-
-Generic tracking extension allowing you to enter your own urls
-
 Facts
 -----
 - [extension on GitHub](https://github.com/shipperhq/module-shipping-tracker)
-- Magento v1.0 available for download from www.webshopapps.com
 
+Description
+-----------
+
+A simple extension which allows you to enter custom shipment tracking URLs. This will enable your customers to have a clickable shipping tracking link in the new shipment email and when viewing their order in Magento.
 
 Compatibility
 -------------
-- Magento >= 2.0 (Includes 2.2)
+This module supports and is tested against the following Magento versions:
 
-This library aims to support and is tested against the following PHP
-implementations:
+* 2.4.6
+* 2.4.5-p1
+* 2.4.5
+* 2.4.4-p2
+* 2.4.4-p1
+* 2.4.4
+* 2.4.3-p3
+* 2.4.3-p2
+* 2.4.3
+* 2.4.2
+* 2.4.1
+* 2.4.0
 
-* PHP 5.5
-* PHP 5.6
-* PHP 5.7
-* PHP 7.x (Please consult [Magento 2 requirements](http://devdocs.magento.com/magento-system-requirements.html) for any exceptions)
+per the [official Magento 2 requirements](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html)
 
-Enforced in the composer.json
+Supports both Magento Opensource (Community) and Magento Commerce (Enterprise)
+
+Compatibility with earlier editions is possible but is not maintained.
 
 Installation Instructions
 -------------------------
@@ -35,9 +42,14 @@ Install using composer by adding to your composer file using commands:
 
 For up-to-date installation instructions, along with troubleshooting steps, please see the documentation, below.
 
+Configuration
+-------------
+The shipping tracker configuration can be found in the shipping methods section: Stores > Configuration > Sales > Shipping Methods > ShipperHQ Tracker 1...5
+
+For further information on using Shipping Tracker, please refer to our [online documentation](http://support.webshopapps.com/shippingtracker)
+
 Support
 -------
-For further information on using Tracker, please refer to our [online documentation](http://support.webshopapps.com/shippingtracker).
 If you have any issues with this extension, open an issue on [GitHub](https://github.com/shipperhq/module-shipping-tracker/issues).
 
 Contribution
@@ -46,14 +58,13 @@ Any contribution is highly appreciated. The best way to contribute code is to op
 
 License
 -------
-Copyright (c) 2015 Zowta LLC & Zowta Ltd. See [LICENSE][] for
-details.
+Copyright (c) 2015 Zowta LLC & Zowta Ltd. See [license] for details.
 
-We also dutifully respect the [Magento][] OSL license, which is included in this codebase.
+We also dutifully respect the [Magento] OSL license, which is included in this codebase.
 
 
-[license]: LICENSE.md
-[magento]: Magento2_LICENSE.md
+[license]: LICENSE.txt
+[magento]: https://github.com/magento/magento2/blob/2.4-develop/LICENSE.txt
 
 Copyright
 ---------
