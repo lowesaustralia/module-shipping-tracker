@@ -1,4 +1,14 @@
 # Change Log
+
+## [v1.0.6](https://github.com/shipperhq/module-shipping-tracker/tree/v1.0.6) (2023-06-16)
+[Full Changelog](https://github.com/shipperhq/module-shipping-tracker/-/compare/v1.0.5...develop)
+ - [MNB-3339](https://webshopapps.atlassian.net/browse/MNB-3339) Correction to phrasing in README [\#14](https://github.com/shipperhq/module-shipping-tracker/-/merge_requests/14) ([wsajason](https://gitlab.com/wsajason))
+
+## [v1.0.5](https://github.com/shipperhq/module-shipping-tracker/tree/v1.0.5) (2022-06-20)
+[Full Changelog](https://github.com/shipperhq/module-shipping-tracker/-/compare/v1.0.4...develop)
+
+## [v1.0.5](https://github.com/shipperhq/module-shipping-tracker/tree/v1.0.5) (2022-06-20)
+[Full Changelog](https://github.com/shipperhq/module-shipping-tracker/-/compare/v1.0.4...develop)
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
@@ -17,3 +27,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [1.0.3] - 2019-05-28
 ### Added
 - SHQ18-1992 Fix for tracking links from wrong order showing in email template
+
+## [1.0.3] - 2020-11-13
+### Added
+- ISSUE-12 Updated version numbers to allow composer update

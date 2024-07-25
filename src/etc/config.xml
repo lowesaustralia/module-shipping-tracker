@@ -76,6 +76,6 @@
                 <title>Direct Freight Express</title>
             </iws_dfe>
         </carriers>
-        <extension_version>0.0.0</extension_version>
+        <extension_version>v1.0.6</extension_version>
     </default>
 </config>
