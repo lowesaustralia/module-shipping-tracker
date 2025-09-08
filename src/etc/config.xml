@@ -83,6 +83,22 @@
                 <title>TGExpress</title>
                 <url><![CDATA[https://teamglobalexp.com/myparcel?shipmentID=#TRACKNUM#]]></url>
             </tg_express>
+            <tge_standard>
+                <active>1</active>
+                <name>TGE Standard</name>
+                <sallowspecific>0</sallowspecific>
+                <model>ShipperHQ\Tracker\Model\Carrier\Tracker7</model>
+                <title>TGE Standard</title>
+                <url><![CDATA[https://www.myteamge.com/?externalSearchQuery=#TRACKNUM#]]></url>
+            </tge_standard>
+            <tge_priority>
+                <active>1</active>
+                <name>TGE Priority</name>
+                <sallowspecific>0</sallowspecific>
+                <model>ShipperHQ\Tracker\Model\Carrier\Tracker8</model>
+                <title>TGE Priority</title>
+                <url><![CDATA[https://www.myteamge.com/?externalSearchQuery=#TRACKNUM#]]></url>
+            </tge_priority>
         </carriers>
         <extension_version>v1.0.6</extension_version>
     </default>
